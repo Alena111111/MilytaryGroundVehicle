@@ -1,0 +1,1272 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/алёна/ontologies/2022/9/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/алёна/ontologies/2022/9/untitled-ontology-10">
+    <Prefix name="" IRI="http://www.semanticweb.org/алёна/ontologies/2022/9/untitled-ontology-10"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Танк"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#используется"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Воздушная"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Вооружение"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#иметь_модификацию"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Удельное_давление_на_грунт"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#использует"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Машина_РХБ_разедки"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Страна"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Цель_поражения"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4Легковой"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Угла_ГН"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Техника_СиУ"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Основное"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#САУ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Кумулятивный"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Разведывательная_машина"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#по_бездорожью"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Машины_разграждения"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Преодолеваемый_брод"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Боевой_робот"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Марка"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ширина"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Экапаж"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Тип_подвески"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Живая_сила"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#поражать"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#РА_техника"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Скорость"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Подкалиберный_бронебойный"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Длина"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Боеприпас"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Техника"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Активная_защита"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Дополнителнительное"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Машины_заграждения"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#поражение"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6Грузовой"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Габариты"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Высота"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#быть_модификацией"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ЗРК"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leopard_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#БТР"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Станция_связи"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Основной_танк"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Бронетехника"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Боевая_масса"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Автомобили"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Прицел"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Фугасно-бронебойный"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#БМП"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Преодолеваемая_стенка"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Удельная_мощность"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#РСЗО"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Компоновочная_схема"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#КШМ"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#стоять_на_вооружении"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Техника_тыла"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Военная_техника"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#РХБ_техника"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#РЛС"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Наземная"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#АСУ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#БМПТ"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Тип"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#являться"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Польша"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Производит"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Мостоукладчики"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Бронирование"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Осколочно-фугасный"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#иметь_на_вооружении"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#быть_пораженным"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Запас_хода"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Динамическая_защита"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Эквадор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ЗРПК"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Преодолеваемый_подъём"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#МОД"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ПТРК"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Двигатель"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Углы_ВН"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#поражение_обр"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Тип_брони"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Измерительная_техника"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Мощность"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Пожарная_техника"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#производится"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#по_шоссе"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ремонтная_техника"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Инфраструктура"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Инженерная_техника"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leopard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ЗА"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Преодолеваемый_ров"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Бельгия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Германия"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Основной_танк"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Танк"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#Боевая_масса"/>
+                <DataIntersectionOf>
+                    <DatatypeRestriction>
+                        <Datatype abbreviatedIRI="xsd:integer"/>
+                        <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+                        </FacetRestriction>
+                    </DatatypeRestriction>
+                    <DatatypeRestriction>
+                        <Datatype abbreviatedIRI="xsd:integer"/>
+                        <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+                        </FacetRestriction>
+                    </DatatypeRestriction>
+                </DataIntersectionOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#АСУ"/>
+        <Class IRI="#Техника_СиУ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Автомобили"/>
+        <Class IRI="#Военная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#БМП"/>
+        <Class IRI="#Бронетехника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#БМПТ"/>
+        <Class IRI="#Бронетехника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#БТР"/>
+        <Class IRI="#Бронетехника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Боевой_робот"/>
+        <Class IRI="#Бронетехника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Бронетехника"/>
+        <Class IRI="#Военная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Воздушная"/>
+        <Class IRI="#Цель_поражения"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Живая_сила"/>
+        <Class IRI="#Наземная"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ЗА"/>
+        <Class IRI="#РА_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ЗРК"/>
+        <Class IRI="#РА_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ЗРПК"/>
+        <Class IRI="#РА_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Измерительная_техника"/>
+        <Class IRI="#Военная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Инженерная_техника"/>
+        <Class IRI="#Военная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Инфраструктура"/>
+        <Class IRI="#Наземная"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#КШМ"/>
+        <Class IRI="#Техника_СиУ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#МОД"/>
+        <Class IRI="#Измерительная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Машина_РХБ_разедки"/>
+        <Class IRI="#РХБ_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Машины_заграждения"/>
+        <Class IRI="#Инженерная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Машины_разграждения"/>
+        <Class IRI="#Инженерная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Мостоукладчики"/>
+        <Class IRI="#Инженерная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Наземная"/>
+        <Class IRI="#Цель_поражения"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Основной_танк"/>
+        <Class IRI="#Танк"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ПТРК"/>
+        <Class IRI="#РА_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Пожарная_техника"/>
+        <Class IRI="#Техника_тыла"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#РА_техника"/>
+        <Class IRI="#Военная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#РЛС"/>
+        <Class IRI="#РА_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#РСЗО"/>
+        <Class IRI="#РА_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#РХБ_техника"/>
+        <Class IRI="#Военная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Разведывательная_машина"/>
+        <Class IRI="#Инженерная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ремонтная_техника"/>
+        <Class IRI="#Техника_тыла"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#САУ"/>
+        <Class IRI="#РА_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Станция_связи"/>
+        <Class IRI="#Техника_СиУ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Танк"/>
+        <Class IRI="#Бронетехника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Техника"/>
+        <Class IRI="#Наземная"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Техника_СиУ"/>
+        <Class IRI="#Военная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Техника_тыла"/>
+        <Class IRI="#Военная_техника"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4Легковой"/>
+        <Class IRI="#Автомобили"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6Грузовой"/>
+        <Class IRI="#Автомобили"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Автомобили"/>
+        <Class IRI="#Бронетехника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Автомобили"/>
+        <Class IRI="#Измерительная_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Автомобили"/>
+        <Class IRI="#Инженерная_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Автомобили"/>
+        <Class IRI="#РА_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Автомобили"/>
+        <Class IRI="#РХБ_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Автомобили"/>
+        <Class IRI="#Техника_СиУ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Автомобили"/>
+        <Class IRI="#Техника_тыла"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#БМП"/>
+        <Class IRI="#БТР"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#БМП"/>
+        <Class IRI="#Танк"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#БТР"/>
+        <Class IRI="#Танк"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Боеприпас"/>
+        <Class IRI="#Военная_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Боеприпас"/>
+        <Class IRI="#Страна"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Боеприпас"/>
+        <Class IRI="#Цель_поражения"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Бронетехника"/>
+        <Class IRI="#Измерительная_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Бронетехника"/>
+        <Class IRI="#Инженерная_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Бронетехника"/>
+        <Class IRI="#РА_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Бронетехника"/>
+        <Class IRI="#РХБ_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Бронетехника"/>
+        <Class IRI="#Техника_СиУ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Бронетехника"/>
+        <Class IRI="#Техника_тыла"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Военная_техника"/>
+        <Class IRI="#Страна"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Воздушная"/>
+        <Class IRI="#Наземная"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Живая_сила"/>
+        <Class IRI="#Инфраструктура"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Живая_сила"/>
+        <Class IRI="#Техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Измерительная_техника"/>
+        <Class IRI="#Инженерная_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Измерительная_техника"/>
+        <Class IRI="#РА_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Измерительная_техника"/>
+        <Class IRI="#РХБ_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Измерительная_техника"/>
+        <Class IRI="#Техника_СиУ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Измерительная_техника"/>
+        <Class IRI="#Техника_тыла"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Инженерная_техника"/>
+        <Class IRI="#РА_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Инженерная_техника"/>
+        <Class IRI="#РХБ_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Инженерная_техника"/>
+        <Class IRI="#Техника_СиУ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Инженерная_техника"/>
+        <Class IRI="#Техника_тыла"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Инфраструктура"/>
+        <Class IRI="#Техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#РА_техника"/>
+        <Class IRI="#РХБ_техника"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#РА_техника"/>
+        <Class IRI="#Техника_СиУ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#РА_техника"/>
+        <Class IRI="#Техника_тыла"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#РХБ_техника"/>
+        <Class IRI="#Техника_СиУ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#РХБ_техника"/>
+        <Class IRI="#Техника_тыла"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Страна"/>
+        <Class IRI="#Цель_поражения"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Техника_СиУ"/>
+        <Class IRI="#Техника_тыла"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#4Легковой"/>
+        <Class IRI="#6Грузовой"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Наземная"/>
+        <NamedIndividual IRI="#Leopard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Танк"/>
+        <NamedIndividual IRI="#Leopard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Танк"/>
+        <NamedIndividual IRI="#Leopard_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страна"/>
+        <NamedIndividual IRI="#Бельгия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страна"/>
+        <NamedIndividual IRI="#Германия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Боеприпас"/>
+        <NamedIndividual IRI="#Кумулятивный"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Боеприпас"/>
+        <NamedIndividual IRI="#Осколочно-фугасный"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Боеприпас"/>
+        <NamedIndividual IRI="#Подкалиберный_бронебойный"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страна"/>
+        <NamedIndividual IRI="#Польша"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Боеприпас"/>
+        <NamedIndividual IRI="#Фугасно-бронебойный"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страна"/>
+        <NamedIndividual IRI="#Эквадор"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#использует"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <NamedIndividual IRI="#Кумулятивный"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#использует"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <NamedIndividual IRI="#Осколочно-фугасный"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#использует"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <NamedIndividual IRI="#Подкалиберный_бронебойный"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#использует"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <NamedIndividual IRI="#Фугасно-бронебойный"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#производится"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <NamedIndividual IRI="#Германия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#стоять_на_вооружении"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <NamedIndividual IRI="#Бельгия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#стоять_на_вооружении"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <NamedIndividual IRI="#Германия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#стоять_на_вооружении"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <NamedIndividual IRI="#Польша"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#стоять_на_вооружении"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <NamedIndividual IRI="#Эквадор"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#быть_модификацией"/>
+        <NamedIndividual IRI="#Leopard_2"/>
+        <NamedIndividual IRI="#Leopard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#поражать"/>
+        <NamedIndividual IRI="#Осколочно-фугасный"/>
+        <NamedIndividual IRI="#Leopard"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Боевая_масса"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Компоновочная_схема"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Классическая</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Основной боевой</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Экапаж"/>
+        <NamedIndividual IRI="#Leopard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#быть_пораженным"/>
+        <ObjectProperty IRI="#поражение_обр"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#использует"/>
+        <ObjectProperty IRI="#поражение"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#используется"/>
+        <ObjectProperty IRI="#поражение_обр"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#поражать"/>
+        <ObjectProperty IRI="#поражение"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Производит"/>
+        <ObjectProperty IRI="#производится"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#быть_модификацией"/>
+        <ObjectProperty IRI="#иметь_модификацию"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#быть_пораженным"/>
+        <ObjectProperty IRI="#поражать"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#иметь_на_вооружении"/>
+        <ObjectProperty IRI="#стоять_на_вооружении"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#использует"/>
+        <ObjectProperty IRI="#используется"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Производит"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#иметь_модификацию"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#быть_модификацией"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#производится"/>
+    </InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#поражать"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#поражение"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#поражение_обр"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#являться"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Производит"/>
+        <Class IRI="#Страна"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#быть_модификацией"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#быть_пораженным"/>
+        <Class IRI="#Цель_поражения"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#иметь_модификацию"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#иметь_на_вооружении"/>
+        <Class IRI="#Страна"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#использует"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#используется"/>
+        <Class IRI="#Боеприпас"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#поражать"/>
+        <Class IRI="#Боеприпас"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#производится"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#стоять_на_вооружении"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#являться"/>
+        <Class IRI="#Бронетехника"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#являться"/>
+        <Class IRI="#Танк"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Производит"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#быть_модификацией"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#быть_пораженным"/>
+        <Class IRI="#Боеприпас"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#иметь_модификацию"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#иметь_на_вооружении"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#использует"/>
+        <Class IRI="#Боеприпас"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#используется"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#поражать"/>
+        <Class IRI="#Цель_поражения"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#производится"/>
+        <Class IRI="#Страна"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#стоять_на_вооружении"/>
+        <Class IRI="#Страна"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#являться"/>
+        <Class IRI="#Бронетехника"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#являться"/>
+        <Class IRI="#Военная_техника"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Активная_защита"/>
+        <DataProperty IRI="#Бронирование"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Боевая_масса"/>
+        <DataProperty IRI="#Габариты"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Вооружение"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Высота"/>
+        <DataProperty IRI="#Габариты"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Динамическая_защита"/>
+        <DataProperty IRI="#Бронирование"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Длина"/>
+        <DataProperty IRI="#Габариты"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Дополнителнительное"/>
+        <DataProperty IRI="#Вооружение"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Марка"/>
+        <DataProperty IRI="#Двигатель"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Мощность"/>
+        <DataProperty IRI="#Двигатель"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Основное"/>
+        <DataProperty IRI="#Вооружение"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Прицел"/>
+        <DataProperty IRI="#Дополнителнительное"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Прицел"/>
+        <DataProperty IRI="#Основное"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Тип_брони"/>
+        <DataProperty IRI="#Бронирование"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Угла_ГН"/>
+        <DataProperty IRI="#Дополнителнительное"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Угла_ГН"/>
+        <DataProperty IRI="#Основное"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Углы_ВН"/>
+        <DataProperty IRI="#Дополнителнительное"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Углы_ВН"/>
+        <DataProperty IRI="#Основное"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Ширина"/>
+        <DataProperty IRI="#Габариты"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Экапаж"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#по_бездорожью"/>
+        <DataProperty IRI="#Скорость"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#по_шоссе"/>
+        <DataProperty IRI="#Скорость"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Боевая_масса"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Высота"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Длина"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Запас_хода"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Компоновочная_схема"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Марка"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Мощность"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Основное"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Преодолеваемая_стенка"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Преодолеваемый_брод"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Преодолеваемый_подъём"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Преодолеваемый_ров"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Скорость"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Тип"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Тип_брони"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Тип_подвески"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Угла_ГН"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Углы_ВН"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Удельная_мощность"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Удельное_давление_на_грунт"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Ширина"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Экапаж"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#по_бездорожью"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#по_шоссе"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Активная_защита"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Боевая_масса"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Бронирование"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Вооружение"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Высота"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Габариты"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Динамическая_защита"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Длина"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Запас_хода"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Компоновочная_схема"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Марка"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Мощность"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Преодолеваемая_стенка"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Преодолеваемый_брод"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Преодолеваемый_подъём"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Преодолеваемый_ров"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Тип"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Тип_брони"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Тип_подвески"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Удельная_мощность"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Удельное_давление_на_грунт"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ширина"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Экапаж"/>
+        <Class IRI="#Военная_техника"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Активная_защита"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Боевая_масса"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Высота"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Динамическая_защита"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Длина"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Запас_хода"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Компоновочная_схема"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Марка"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Мощность"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Преодолеваемая_стенка"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Преодолеваемый_брод"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Преодолеваемый_подъём"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Преодолеваемый_ров"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Прицел"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Тип"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Тип_брони"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Тип_подвески"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Угла_ГН"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Углы_ВН"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Удельная_мощность"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Удельное_давление_на_грунт"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Ширина"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Экапаж"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
